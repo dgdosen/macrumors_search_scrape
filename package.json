@@ -1,0 +1,33 @@
+{
+  "name": "macrumors_search_scrape",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "Daniel G. Dosen",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/clear": "^0.1.0",
+    "@types/figlet": "^1.2.0",
+    "@types/node": "^18.11.9",
+    "@types/puppeteer": "^7.0.4",
+    "nodemon": "^2.0.5",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "axios": "^1.1.3",
+    "chalk": "^5.1.2",
+    "clear": "^0.1.0",
+    "commander": "^9.4.1",
+    "dotenv": "^16.0.3",
+    "figlet": "^1.5.0",
+    "path": "^0.12.7",
+    "puppeteer": "^19.2.2",
+    "typescript": "^4.9.3"
+  }
+}
